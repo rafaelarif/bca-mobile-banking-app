@@ -21,9 +21,10 @@ cd backend
 ./mvnw clean package
 ```
 
-3. Deploy the WAR file to Apache Tomcat:
-   - Copy `target/bca-banking-backend-1.0.0.war` to Tomcat's `webapps/` directory
-   - Start Tomcat server
+3. Start the Tomcat server:
+```bash
+./mvnw spring-boot:run
+```
 
 4. The API will be available at: `http://localhost:8080/bca-banking-backend/api`
 
